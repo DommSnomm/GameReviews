@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html> 
+    <head> 
+        <title>Reviews</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <img src="banner.png", height="200", class="banner">
+        <main> <!--another layer inside the body for freedom purposes-->
+            <nav> <!--another layer inside the body this one is for the navigation menu at the top-->
+
+            </nav>
+            <div class="sidebar">
+                <a href="Home.html">Home</a>
+                <p class="deadl">Reviews</p>
+                <a href="Tierlist.html">Tierlist</a> 
+                <a href="Content.html">About</a>
+            </div>
+            <div class="box">
+            <div class="text">
+                <h1>Reviews</h1>
+                <p>
+                    <img src="hades.png" style="height: 200px; float: right;"><span style="vertical-align: middle;"></span>
+                    <h2>Hades</h2>
+                    <ul>
+                        <li>Roguelite</li>
+                        <li>X and Y</li>
+                        <li>8/10</li>
+                    </ul>
+                    <p>Your rating is: <span id="ratinghades"><label><input id="hadesn" type="range" min="0" max="10" step="1"></label></span>/10</p> <button id="rehades">Submit</button>
+
+                    <script>
+                        function hadesr() {
+                            ratinghades.textContent = hadesn.value;
+                        }
+                        rehades.onclick = hadesr;
+                    </script>
+                    <p>very gud</p>
+                </p>
+                <div class="clearfix">
+                <p>
+                    <img src="tewwawia.png" style="height: 200px; float: right;"><span style="vertical-align: middle;"></span>
+                    <h2>Terraria</h2>
+                    <ul>
+                        <li>X</li>
+                        <li>Relogic</li>
+                        <li>10/10</li>
+                    </ul>
+                    <p>This game is the perfect combination of </p>
+                </p>
+                </div>
+            </div>
+            </div>
+        </main>
+        <script>
+            if('serviceWorker' in navigator) {
+              navigator.serviceWorker.register('/sw.js', { scope: '/' });
+            }
+        </script>
+    </body>
+</html>

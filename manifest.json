@@ -1,0 +1,15 @@
+{
+    "lang": "en-us",
+    "name": "Game reviews",
+    "short_name": "Game Reveiws",
+    "description": "Game Reviews",
+    "start_url": "/",
+    "orientation": "any",
+    "display": "standalone",
+    "icons": [
+        {
+            "src": "/logo copy.png",
+            "sizes": "512x512"
+        }
+    ]
+}

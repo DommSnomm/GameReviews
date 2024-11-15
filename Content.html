@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html> 
+    <head> 
+        <title>Content</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <img src="banner.png", height="200", class="banner">
+        <main> <!--another layer inside the body for freedom purposes-->
+            <nav> <!--another layer inside the body this one is for the navigation menu at the top-->
+
+            </nav>
+            <div class="sidebar">
+                <a href="Home.html">Home</a>
+                <a href="Reviews.html">Reviews</a> 
+                <a href="Tierlist.html">Tierlist</a>
+                <p class="deadl">About</p>
+            </div>
+
+            <div class="box">
+            <div class="text">
+                <h1>About</h1>
+                <p><b>Disclaimer:</b> all the reviews for this game are entirely my opinion so if you disagree with the rating as I won't care because that is your opinion</p>
+                <p>This is a website which is dedicated to reviewing games which i have played with these reviews including:</p>
+                <ul>
+                    <li>The genre</li>
+                    <li>The developers and publishers</li>
+                    <li>A scorce out of 10</li>
+                    <li>An in depth breakdown</li>
+                </ul>
+            </div>
+            </div>
+            <p>If you disagree with the rating given you can change it for yourself and the data will be put into the average rating</p>
+        </main>
+        <script>
+            if('serviceWorker' in navigator) {
+              navigator.serviceWorker.register('/sw.js', { scope: '/' });
+            }
+        </script>
+    </body>
+</html>
